@@ -6,4 +6,15 @@ Install it and run the server:
 npm install
 npm run server
 ```
-# Next-GraphQL
+
+Run the client:
+
+```bash
+npm run dev
+```
+
+Run the client and the server:
+
+```bash
+npm run all
+```
