@@ -3,6 +3,7 @@ const mongoose = require("mongoose");
 export function connection(): void {
   mongoose
     .connect("mongodb://localhost:27017/dogs", {
+      useCreateIndex: true,
       useNewUrlParser: true,
       useUnifiedTopology: true,
     })
