@@ -11,6 +11,7 @@
   "dependencies": {
     "@apollo/react-hooks": "^3.1.5",
     "@types/mongoose": "^5.7.30",
+    "@zeit/next-sass": "^1.0.1",
     "apollo-cache-inmemory": "^1.6.6",
     "apollo-client": "^2.6.10",
     "apollo-link-http": "^1.5.17",
@@ -21,6 +22,7 @@
     "graphql-tag": "^2.10.3",
     "mongoose": "^5.9.22",
     "next": "^9.4.4",
+    "node-sass": "^4.14.1",
     "react": "^16.8.4",
     "react-apollo": "^3.1.5",
     "react-dom": "^16.8.4"

@@ -1,0 +1,43 @@
+.container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.theme {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  input {
+    margin: 1em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    border: solid 2px black;
+    &:focus {
+      border-color: rgb(33, 209, 145);
+    }
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  button {
+    background-color: rgb(33, 209, 145);
+    margin: 1em;
+    border: solid 5px rgb(33, 209, 145);
+    border-radius: 1em;
+    color: white;
+  }
+}
